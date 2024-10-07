@@ -8,9 +8,7 @@ export default function QueryProcessor(query: string): string {
   }
   else if (query.toLowerCase().includes("Andrew")) {
     return (
-      "My andrewID is Juliahul. " +
-      "English poet, playwright, and actor, widely regarded as the greatest " +
-      "writer in the English language and the world's pre-eminent dramatist."
+      "My andrewID is Juliahul. " 
     );
   }
 
